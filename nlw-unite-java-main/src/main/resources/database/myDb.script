@@ -1,4 +1,4 @@
-SET DATABASE UNIQUE NAME HSQLDB8EABF63D72
+SET DATABASE UNIQUE NAME HSQLDB8E7C68C5B1
 SET DATABASE DEFAULT RESULT MEMORY ROWS 0
 SET DATABASE EVENT LOG LEVEL 0
 SET DATABASE TRANSACTION CONTROL LOCKS
@@ -29,7 +29,7 @@ SET FILES NIO TRUE
 SET FILES NIO SIZE 256
 SET FILES LOG TRUE
 SET FILES LOG SIZE 50
-SET FILES CHECK 218
+SET FILES CHECK 8892
 SET DATABASE COLLATION "SQL_TEXT" PAD SPACE
 CREATE USER SA PASSWORD DIGEST 'd41d8cd98f00b204e9800998ecf8427e'
 ALTER USER SA SET LOCAL TRUE
@@ -54,16 +54,7 @@ GRANT DBA TO SA
 SET SCHEMA SYSTEM_LOBS
 INSERT INTO BLOCKS VALUES(0,2147483647,0)
 SET SCHEMA PUBLIC
-INSERT INTO "flyway_schema_history" VALUES(1,'1','create-table-events','SQL','V1__create-table-events.sql',1697759344,'SA','2024-04-04 22:53:49.604886',530,'1')
-INSERT INTO "flyway_schema_history" VALUES(2,'2','create-table-attendees','SQL','V2__create-table-attendees.sql',1612960147,'SA','2024-04-04 22:53:50.016632',4,'1')
-INSERT INTO "flyway_schema_history" VALUES(3,'3','create table checkins','SQL','V3__create_table_checkins.sql',277259538,'SA','2024-04-04 22:53:50.047613',4,'1')
-INSERT INTO "flyway_schema_history" VALUES(4,'4','create-indexes','SQL','V4__create-indexes.sql',553901455,'SA','2024-04-04 22:53:50.087587',15,'1')
-INSERT INTO EVENTS VALUES('4bc51c1c-6d68-49ef-9ed3-6395a34e4d63','ROCKETSEAT UNITE 3.0','Aprenda Spring Boot de Forma Online e Gratuita','rocketseat-unite-30',1)
-INSERT INTO EVENTS VALUES('60056688-6f14-45fb-9e8e-604907c2cd9e','ROCKETSEAT UNITE','Aprenda Spring Boot de Forma Online e Gratuita','rocketseat-unite',2000)
-INSERT INTO EVENTS VALUES('ee84cc5c-af43-4232-87e0-96f180d4d3a2','ROCKETSEAT UNITE 2.0','Aprenda Spring Boot de Forma Online e Gratuita','rocketseat-unite-20',2000)
-INSERT INTO EVENTS VALUES('f12e877f-5c3c-4b25-a01f-cebd234b9347','Evento Testeee','testeeer','evento-testeee',20)
-INSERT INTO ATTENDEES VALUES('3954af6e-dea6-444a-8586-e00d8348cf8e','Maria Fernandaa','mahcosta54@gmail.com','f12e877f-5c3c-4b25-a01f-cebd234b9347','2024-04-04 22:55:05.712703')
-INSERT INTO ATTENDEES VALUES('5e15da4d-d46a-46a2-9e97-b16ddf1ae2c1','Maria Fernandaa','mahcosta54@gmail.com','ee84cc5c-af43-4232-87e0-96f180d4d3a2','2024-04-04 23:03:07.686889')
-INSERT INTO ATTENDEES VALUES('61b46b93-6635-43a8-a6c9-b7999de8c223','Maria Fernandaa','mahcosta54@gmail.com','60056688-6f14-45fb-9e8e-604907c2cd9e','2024-04-04 23:01:41.513315')
-INSERT INTO ATTENDEES VALUES('8c8d0e24-ca59-4116-a0cd-9ec9de61b4c8','Maria Fernandaa','mahcosta54@gmail.com','4bc51c1c-6d68-49ef-9ed3-6395a34e4d63','2024-04-04 23:03:49.798781')
-INSERT INTO CHECK_INS VALUES(0,'2024-04-04 23:13:33.970610','61b46b93-6635-43a8-a6c9-b7999de8c223')
+INSERT INTO "flyway_schema_history" VALUES(1,'1','create-table-events','SQL','V1__create-table-events.sql',1697759344,'SA','2024-03-26 17:17:05.200102',3,'1')
+INSERT INTO "flyway_schema_history" VALUES(2,'2','create-table-attendees','SQL','V2__create-table-attendees.sql',1612960147,'SA','2024-03-26 17:17:05.210610',1,'1')
+INSERT INTO "flyway_schema_history" VALUES(3,'3','create table checkins','SQL','V3__create_table_checkins.sql',277259538,'SA','2024-03-26 17:17:05.219676',1,'1')
+INSERT INTO "flyway_schema_history" VALUES(4,'4','create-indexes','SQL','V4__create-indexes.sql',553901455,'SA','2024-03-26 17:17:05.226674',1,'1')
