@@ -29,7 +29,7 @@ SET FILES NIO TRUE
 SET FILES NIO SIZE 256
 SET FILES LOG TRUE
 SET FILES LOG SIZE 50
-SET FILES CHECK 17612
+SET FILES CHECK 24688
 SET DATABASE COLLATION "SQL_TEXT" PAD SPACE
 CREATE USER SA PASSWORD DIGEST 'd41d8cd98f00b204e9800998ecf8427e'
 ALTER USER SA SET LOCAL TRUE
@@ -59,6 +59,8 @@ INSERT INTO "flyway_schema_history" VALUES(2,'2','create-table-attendees','SQL',
 INSERT INTO "flyway_schema_history" VALUES(3,'3','create-table-ckeckins','SQL','V3__create-table-ckeckins.sql',277259538,'SA','2024-04-01 23:11:12.653442',589,'1')
 INSERT INTO "flyway_schema_history" VALUES(4,'4','create-indexes','SQL','V4__create-indexes.sql',553901455,'SA','2024-04-01 23:17:53.848209',74,'1')
 INSERT INTO EVENTS VALUES('3e553a57-155c-48e6-af6d-42b1e5da483c','Rocketseat NLW','Aprenda Java de forma  Gratuita!','Rocketseat NLW',500)
+INSERT INTO EVENTS VALUES('50a58b91-beb3-4755-bd69-cc9b818a2093','ROCKETSEAT JAVA','Aprenda SPRING BOOT de forma  Gratuitaaa!','ROCKETSEAT JAVA',150)
 INSERT INTO EVENTS VALUES('6a8593b3-b567-45ef-87cc-27328a0dabb9','NLW UNITE','Aprenda diversas trilhas de forma  Gratuitaaa!','NLW UNITE',1500)
 INSERT INTO EVENTS VALUES('8f9c1d4d-bbab-4237-8753-4d70c9fe3d65','Rocketseat NLW IA','Aprenda sobre IA de forma  Gratuita e Online!','Rocketseat NLW IA',150)
+INSERT INTO EVENTS VALUES('d2700bc6-9f71-46f5-b16b-059bb868045b','ROCKETSEAT JAVAA','Aprenda SPRING BOOT de forma  Gratuitaaa!','ROCKETSEAT JAVAA',150)
 INSERT INTO EVENTS VALUES('df3dbc5c-10fa-4863-8988-89f615d7c205','Rocketseat NLW Unite','Aprenda Varias Tecnologias de forma  Gratuita e online!','Rocketseat NLW Unite',1000)
